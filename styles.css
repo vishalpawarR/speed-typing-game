@@ -23,12 +23,17 @@ body, .quote-input {
   max-width: 90%;
 }
 
-.timer {
+.timer, h3 {
   position: absolute;
   top: 2rem;
   font-size: 3rem;
   color: #f0db4f;
   font-weight: bold;
+}
+
+h3 {
+  font-size: 2rem;
+  top: 4rem;
 }
 
 .quote-display {

@@ -26,6 +26,11 @@ body, .quote-input {
     color: #f0db4f;
     font-weight: bold;
 }
+h3 {
+    @extend .timer;
+    font-size: 2rem;
+    top: 4rem;
+}
 .quote-display {
     margin-bottom: 1rem;
     margin-left: calc(+1rem + 2px);
